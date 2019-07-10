@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3054BF73F42B1F880226A687 /* libPods-HBTZImagePickerHelper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 94C8E0628AF9BDAA4C1564E1 /* libPods-HBTZImagePickerHelper.a */; };
 		5D69177422D617B400F0F8F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D69177322D617B400F0F8F8 /* AppDelegate.m */; };
 		5D69177722D617B400F0F8F8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D69177622D617B400F0F8F8 /* ViewController.m */; };
 		5D69177A22D617B400F0F8F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D69177822D617B400F0F8F8 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 		5D69178222D617BB00F0F8F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D69178122D617BB00F0F8F8 /* main.m */; };
 		5D69178C22D617BC00F0F8F8 /* HBTZImagePickerHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D69178B22D617BC00F0F8F8 /* HBTZImagePickerHelperTests.m */; };
 		5D69179722D617BC00F0F8F8 /* HBTZImagePickerHelperUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D69179622D617BC00F0F8F8 /* HBTZImagePickerHelperUITests.m */; };
+		5D6917A622D6197500F0F8F8 /* HBTZImagePickerManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6917A522D6197500F0F8F8 /* HBTZImagePickerManage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		24EC12289A0543B154AC3318 /* Pods_HBTZImagePickerHelperUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HBTZImagePickerHelperUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		261B747FFE555817F0FF1CB5 /* Pods-HBTZImagePickerHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBTZImagePickerHelper.debug.xcconfig"; path = "Target Support Files/Pods-HBTZImagePickerHelper/Pods-HBTZImagePickerHelper.debug.xcconfig"; sourceTree = "<group>"; };
 		5D69176F22D617B400F0F8F8 /* HBTZImagePickerHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HBTZImagePickerHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D69177222D617B400F0F8F8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5D69177322D617B400F0F8F8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +55,11 @@
 		5D69179222D617BC00F0F8F8 /* HBTZImagePickerHelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HBTZImagePickerHelperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D69179622D617BC00F0F8F8 /* HBTZImagePickerHelperUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBTZImagePickerHelperUITests.m; sourceTree = "<group>"; };
 		5D69179822D617BC00F0F8F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D6917A422D6197500F0F8F8 /* HBTZImagePickerManage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBTZImagePickerManage.h; sourceTree = "<group>"; };
+		5D6917A522D6197500F0F8F8 /* HBTZImagePickerManage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBTZImagePickerManage.m; sourceTree = "<group>"; };
+		94C8E0628AF9BDAA4C1564E1 /* libPods-HBTZImagePickerHelper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HBTZImagePickerHelper.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4D4D07DE3CC06BE26C7837E /* Pods_HBTZImagePickerHelperTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HBTZImagePickerHelperTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4A377B0036D4C631828B320 /* Pods-HBTZImagePickerHelper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBTZImagePickerHelper.release.xcconfig"; path = "Target Support Files/Pods-HBTZImagePickerHelper/Pods-HBTZImagePickerHelper.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3054BF73F42B1F880226A687 /* libPods-HBTZImagePickerHelper.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +88,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5A77BA2A34C92279059502E7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				261B747FFE555817F0FF1CB5 /* Pods-HBTZImagePickerHelper.debug.xcconfig */,
+				D4A377B0036D4C631828B320 /* Pods-HBTZImagePickerHelper.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		5D69176622D617B400F0F8F8 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +104,8 @@
 				5D69178A22D617BC00F0F8F8 /* HBTZImagePickerHelperTests */,
 				5D69179522D617BC00F0F8F8 /* HBTZImagePickerHelperUITests */,
 				5D69177022D617B400F0F8F8 /* Products */,
+				5A77BA2A34C92279059502E7 /* Pods */,
+				AAEF2D18447CF8457C5ADBC0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +126,8 @@
 				5D69177322D617B400F0F8F8 /* AppDelegate.m */,
 				5D69177522D617B400F0F8F8 /* ViewController.h */,
 				5D69177622D617B400F0F8F8 /* ViewController.m */,
+				5D6917A422D6197500F0F8F8 /* HBTZImagePickerManage.h */,
+				5D6917A522D6197500F0F8F8 /* HBTZImagePickerManage.m */,
 				5D69177822D617B400F0F8F8 /* Main.storyboard */,
 				5D69177B22D617BB00F0F8F8 /* Assets.xcassets */,
 				5D69177D22D617BB00F0F8F8 /* LaunchScreen.storyboard */,
@@ -132,6 +155,16 @@
 			path = HBTZImagePickerHelperUITests;
 			sourceTree = "<group>";
 		};
+		AAEF2D18447CF8457C5ADBC0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4D4D07DE3CC06BE26C7837E /* Pods_HBTZImagePickerHelperTests.framework */,
+				24EC12289A0543B154AC3318 /* Pods_HBTZImagePickerHelperUITests.framework */,
+				94C8E0628AF9BDAA4C1564E1 /* libPods-HBTZImagePickerHelper.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5D69179B22D617BC00F0F8F8 /* Build configuration list for PBXNativeTarget "HBTZImagePickerHelper" */;
 			buildPhases = (
+				6DFC419D0C9F9DE4478AD149 /* [CP] Check Pods Manifest.lock */,
 				5D69176B22D617B400F0F8F8 /* Sources */,
 				5D69176C22D617B400F0F8F8 /* Frameworks */,
 				5D69176D22D617B400F0F8F8 /* Resources */,
+				39B79304F4930E8DEBE8F3E4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,11 +292,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		39B79304F4930E8DEBE8F3E4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HBTZImagePickerHelper/Pods-HBTZImagePickerHelper-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HBTZImagePickerHelper/Pods-HBTZImagePickerHelper-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HBTZImagePickerHelper/Pods-HBTZImagePickerHelper-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DFC419D0C9F9DE4478AD149 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HBTZImagePickerHelper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5D69176B22D617B400F0F8F8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D6917A622D6197500F0F8F8 /* HBTZImagePickerManage.m in Sources */,
 				5D69177722D617B400F0F8F8 /* ViewController.m in Sources */,
 				5D69178222D617BB00F0F8F8 /* main.m in Sources */,
 				5D69177422D617B400F0F8F8 /* AppDelegate.m in Sources */,
@@ -433,6 +511,7 @@
 		};
 		5D69179C22D617BC00F0F8F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 261B747FFE555817F0FF1CB5 /* Pods-HBTZImagePickerHelper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +528,7 @@
 		};
 		5D69179D22D617BC00F0F8F8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4A377B0036D4C631828B320 /* Pods-HBTZImagePickerHelper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

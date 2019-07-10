@@ -1,0 +1,6 @@
+framework module Pods_HBTZImagePickerHelper {
+  umbrella header "Pods-HBTZImagePickerHelper-umbrella.h"
+
+  export *
+  module * { export * }
+}
